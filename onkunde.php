@@ -1,10 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html lang="nl">
 <head>
-<link rel="stylesheet" type="text/css" href="madlibs.css">
-<meta charset="utf-8"/>
-<title>mad libs</title>
-<style>
-</style>
+	<link rel="stylesheet" type="text/css" href="madlibs.css">
+	<meta charset="utf-8"/>
+	<title>mad libs</title>
 </head>
 <body>
 	<h1>mad libs</h1>
@@ -13,14 +12,14 @@
 		<a href="paniek.php">er heerst paniek...</a><a href="onkunde.php">onkunde</a>
 	</div>
 		<h2>onkunde</h2>
-	    <form action="/madLibs/uitkomst.php">
+	    <form action="/madlibs/uitkomstOnkunde.php">
 	    	<div class="fields">
 				<label for="kunnen">Wat wil je kunnen?</label>
 				<input type="text" id="kunnen" name="kunnen" class="input" required ><br>
 			</div>
 			<div class="fields">
 				<label for="persoon">Met welke persoon kan je goed opschieten?</label>
-				<input type="text" id="persoon" name="persoon" class="input"required><br> 
+				<input type="text" id="persoon" name="persoon" class="input" required><br> 
 			</div>
 			<div class="fields">
 				<label for="getal">Wat is je favoriete getal?</label>
@@ -49,5 +48,3 @@
 	</div>
 </body>
 </html>
-<script>
-</script>
